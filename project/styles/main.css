@@ -13,8 +13,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    height: 50px;
-    background-color: #1e0f22;
+    height: 60px;
+    background-color: #170e1a;
 }
 
 .name {
@@ -37,19 +37,82 @@ body {
 
 /* --------------------------------- content */
 .content {
-    width: 100%;
-    height: 600px;
+    display: flex;
+    height: 1200px;
+}
+
+.content-left {
+    width: 60%;
+    background-color: #170e1a;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+.block {
+    display: flex;
+}
+
+.p-block {
+    color: white;
+    font-size: 18px;
+    padding: 50px;
+    line-height: 50px;
+}
+
+.content-right {
+    width: 30%;
+    background-color: #170e1a;
+    margin: 100px 20px 300px;
+    background-color: #e9464b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note1 {
+    display: flex;
+    margin: -50px 0 0 50px;
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+}
+
+.note2 {
+    display: flex;
+    align-self: flex-end;
+    margin: 0 50px -50px 0;
+    width: 200px;
+    padding: 30px 50px 20px 30px;
+    color: white;
+    background-color: #170e1a;
+}
+
+.number-left {
+    margin: 0 20px 0 -60px;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.number-right {
+    margin: -20px -75px 0 0;
+    font-size: 120px;
+    font-weight: bold;
 }
 
 /* --------------------------------- footer */
 .footer {
     width: 100%;
-    height: 100px;
-    background-color: #1e0f22;
+    height: 300px;
+    background-color: #170e1a;
+    display: flex;
 }
 
 .footer > .error-name {
+    margin: -70px 0 0 50px;
     color: #e9464b;
-    font-size: 80px;
+    font-size: 120px;
     font-weight: bold;
 }
